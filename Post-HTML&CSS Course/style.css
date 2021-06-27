@@ -1,0 +1,202 @@
+* {
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.bord {
+  background-color: lightgreen;
+  padding: 20px;
+}
+
+#gregLogo {
+  position: absolute;
+  width: 40px;
+  left: 95%;
+  top: 8px;
+}
+
+.nav {
+  display: inline;
+  position: absolute;
+  top: 10px;
+  margin: 10px 0 0 10px;
+}
+
+.title_onBar {
+  white-space: nowrap;
+  position: absolute;
+  left: 40%;
+  top: 10px;
+}
+
+#nav_button {
+  color: rgb(255, 0, 0);
+  padding: 5px;
+  background-color: lightgreen;
+}
+
+#nav_button:hover {
+  color: lightgrey;
+  background-color: darkgreen;
+  border: solid lightseagreen 2px;
+}
+
+/* -- Content -- */
+
+#content {
+  text-align: justify;
+  margin: 10px;
+}
+
+.questions {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  padding: 10px;
+}
+
+#list1 > li {
+  font-weight: bold;
+  line-height: 50px;
+}
+
+#list1 > p {
+  text-indent: 30px;
+  width: 80%;
+}
+
+#list1 > #concept_img {
+  width: 900px;
+}
+
+.content_contact {
+  text-align: justify;
+  margin: 20px;
+  float: clear;
+}
+
+.table {
+  margin: 20px;
+  text-align: center;
+  float: right;
+}
+
+.table caption {
+  font-weight: bold;
+  text-decoration-line: underline;
+  background-color: cadetblue;
+  /* width: 50%; */
+  position: relative;
+  /* left: 25%; */
+}
+
+#greetingH1 {
+  margin-top: 200px;
+  font-size: 24px;
+  text-align: center;
+}
+
+#greetingH1 a {
+  text-decoration: none;
+  color: white;
+  padding: 0.001px 5px;
+  background-color: red;
+}
+
+#clickHereImg {
+  position: relative;
+  transform: rotate(40deg);
+  left: 52rem;
+  top: -90px;
+
+  width: 95px;
+}
+
+#back {
+  margin: 10px;
+}
+#navBack {
+  color: white;
+}
+
+#navBack:hover {
+  color: red;
+}
+#navBack:active {
+  color: darkred;
+}
+
+#secretBody {
+  background-color: rgb(22, 0, 0);
+}
+
+/* #image_secret{
+  position: absolute;
+} */
+
+.planetBlack {
+  position: absolute;
+  left: 600px;
+  z-index: 1;
+}
+
+.planetBack {
+  position: absolute;
+  left: 655px;
+  top: 92px;
+}
+
+#greet_sec {
+  color: white;
+  position: absolute;
+  left: 420px;
+  top: 180px;
+}
+.content_index {
+  margin: 10px;
+}
+
+.greet_Index {
+  padding: 15px 10px;
+}
+
+.para1 {
+  text-indent: 30px;
+  float: clear;
+  text-align: justify;
+  padding: 10px;
+}
+
+#img1_greg {
+  height: 400px;
+  float: right;
+  padding: 0 20px;
+}
+#img2_greg {
+  height: 300px;
+  float: left;
+  padding: 20px;
+}
+#img3_greg {
+  height: 500px;
+  float: right;
+  padding: 20px;
+}
+
+.copy>p{
+  text-align: center;
+  position: relative;
+  top: 130px;
+}
+
+#greg{
+  position: relative;
+  top: 60px;
+  left: 370px;
+  margin: 10px;
+  width: 250px ;
+}
