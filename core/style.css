@@ -37,6 +37,7 @@ body {
   color: rgb(0, 0, 0);
   padding: 5px;
   background-color: lightgreen;
+  text-decoration: none;
 }
 
 #nav_button:hover {
